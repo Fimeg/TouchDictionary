@@ -1,0 +1,14 @@
+[package]
+name = "touchdictionary-cli"
+version = "0.1.0"
+description = "CLI for TouchDictionary"
+authors = ["you"]
+edition = "2021"
+
+[[bin]]
+name = "touchdictionary-cli"
+path = "src/main.rs"
+
+[dependencies]
+touchdictionary-core = { path = "../core" }
+tokio = { version = "1", features = ["full"] }

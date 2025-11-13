@@ -1,0 +1,12 @@
+[package]
+name = "touchdictionary-core"
+version = "0.1.0"
+description = "Core lookup logic for TouchDictionary"
+authors = ["you"]
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json"] }

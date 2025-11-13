@@ -1,0 +1,33 @@
+# Build artifacts
+target/
+dist/
+node_modules/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Legacy Python code
+../legacy/
+../*.py
+../*.sh
+../*.desktop
+../*.conf
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Cargo lock (optional - some prefer to commit this)
+# Cargo.lock
